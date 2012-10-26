@@ -1,0 +1,17 @@
+<package>
+  <description brief="circleMove">
+
+     circleMove
+
+  </description>
+  <author>Rowan</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/circleMove</url>
+  <depend package="geometry_msgs"/>
+  <depend package="rospy"/>
+  <depend package="circleFilter"/>
+  <depend package="roslib"/>
+</package>
+
+

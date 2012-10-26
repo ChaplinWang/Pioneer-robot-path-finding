@@ -1,0 +1,14 @@
+<package>
+  <description brief="circleFinder">
+
+     circleFinder
+
+  </description>
+  <author>Rowan</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/circleFinder</url>
+
+</package>
+
+

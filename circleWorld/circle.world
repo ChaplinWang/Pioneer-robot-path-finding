@@ -1,0 +1,190 @@
+define block model
+(
+  size [0.5 0.5 0.5]
+  gui_nose 0
+)
+
+define topurg laser
+(
+
+  range_max 300.0
+  fov 360.0
+  samples 360
+  # generic model properties
+  color "black"
+  size [ 0.050 0.050 0.100 ]
+)
+
+define erratic position
+(
+  #size [0.415 0.392 0.25]
+  size [1.350 1.350 0.250]
+  origin [0 0 0 0]
+  gui_nose 360
+  drive "diff"
+  topurg(pose [ 0.050 0 0 0 ])
+)
+
+define floorplan model
+(
+  # sombre, sensible, artistic
+  color "gray30"
+
+  # most maps will need a bounding box
+  boundary 1
+
+  gui_nose 0
+  gui_grid 0
+
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+# set the resolution of the underlying raytrace model in meters
+resolution 0.005
+
+interval_sim 100  # simulation timestep in milliseconds
+
+
+window
+( 
+  size [ 800.000 546.000 ] 
+
+  rotate [ 0 0 ]
+  scale 30.000 
+)
+
+# load an environment bitmap
+floorplan
+( 
+  bitmap "Circle.png"
+  size [5.000 5.000 1.000]
+  pose [ 0 10.000 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [2.000 2.000 1.000]
+  pose [ 5.000 0 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [3.000 3.000 1.000]
+  pose [ -15.000 0 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [6.000 6.000 1.000]
+  pose [ -10.000 15 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [2.000 2.000 1.000]
+  pose [ -3.000 -20 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [9.000 9.000 1.000]
+  pose [ -24.000 -18 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [3.000 3.000 1.000]
+  pose [ 17.000 17 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [0.5000 0.5000 1.000]
+  pose [ 5.000 -15 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+floorplan
+( 
+  bitmap "Circle.png"
+  size [0.8000 0.8000 1.000]
+  pose [ 10.000 -13 0 0 ]
+  boundary 0
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+#block( pose [ 0 5 0 0.000 ] color "red")
+# throw in a robot
+erratic( pose [ 0 0 0 0 ] name "era" color "blue")
+#block( pose [ 0 0 0 0.000 ] color "red")

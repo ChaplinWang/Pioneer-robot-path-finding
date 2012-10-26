@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/ros-pkg/!svn/ver/37726/stacks/stage/trunk
+END
+Makefile.stage
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ros-pkg/!svn/ver/37483/stacks/stage/trunk/Makefile.stage
+END
+Stage-3.2.2-Source.patch
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ros-pkg/!svn/ver/36999/stacks/stage/trunk/Stage-3.2.2-Source.patch
+END
+stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ros-pkg/!svn/ver/37436/stacks/stage/trunk/stack.xml
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ros-pkg/!svn/ver/37553/stacks/stage/trunk/manifest.xml
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ros-pkg/!svn/ver/37726/stacks/stage/trunk/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/ros-pkg/!svn/ver/36999/stacks/stage/trunk/Makefile
+END
+rosdep.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/ros-pkg/!svn/ver/37000/stacks/stage/trunk/rosdep.yaml
+END
+Stage-3.2.2-Source.tar.gz.md5sum
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ros-pkg/!svn/ver/36999/stacks/stage/trunk/Stage-3.2.2-Source.tar.gz.md5sum
+END

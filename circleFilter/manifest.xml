@@ -1,0 +1,25 @@
+<package>
+  <description brief="circleFilter">
+
+     circleFilter
+
+  </description>
+  <author>Rowan</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/circleFilter</url>
+  <depend package="roslib"/>
+  <depend package="rospy"/>
+  <depend package="circleFinder"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+<rosbuild>
+    <msgs>
+      msg/coordinate.msg
+      msg/moveNotify.msg
+    </msgs>
+</rosbuild>
+</package>
+
+

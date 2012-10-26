@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g   -pthread CMakeFiles/talker.dir/src/talker.o  -o ../bin/talker -rdynamic 

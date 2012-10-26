@@ -1,0 +1,17 @@
+<package>
+  <description brief="gui">
+
+     gui
+
+  </description>
+  <author>COMP3431 11s2 - Rowan Coull Leederrcle271@cse.unsw.edu.au</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/gui</url>
+  <depend package="rospy"/>
+  <depend package="circleFilter"/>
+  <depend package="roslib"/>
+
+</package>
+
+

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rowan/ros_workspace/circleWorld/circleFinder/src/listener.cpp
+ros/ros.h
+/home/rowan/ros_workspace/circleWorld/circleFinder/src/ros/ros.h
+std_msgs/String.h
+/home/rowan/ros_workspace/circleWorld/circleFinder/src/std_msgs/String.h
+
